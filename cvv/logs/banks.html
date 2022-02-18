@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bank logs</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="../../assets/images/favicon.png" />
+  </head>
+  <body>
+    <div class="container-scroller">
+      <!-- partial:../../partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+          
+        </div>
+        <ul class="nav">
+          <li class="nav-item profile">
+            <div class="profile-desc">
+              <div class="profile-pic">
+                <div class="count-indicator">
+                  <img class="img-xs rounded-circle " src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Former_Visa_%28company%29_logo.svg/1280px-Former_Visa_%28company%29_logo.svg.png" alt="">
+                  <span class="count bg-success"></span>
+                </div>
+                <div class="profile-name">
+                  <h5 class="mb-0 font-weight-normal">ID 3276198</h5>
+                  <span>Silver Member</span>
+                </div>
+              </div>
+              <a href="#" id="profile-dropdown" data-bs-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
+              <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list" aria-labelledby="profile-dropdown">
+                <a href="#" class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-settings text-primary"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject ellipsis mb-1 text-small">Account settings</p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-onepassword  text-info"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject ellipsis mb-1 text-small">Change Password</p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-calendar-today text-success"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject ellipsis mb-1 text-small">To-do list</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item nav-category">
+            <span class="nav-link">Navigation</span>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="../../index.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-speedometer"></i>
+              </span>
+              <span class="menu-title">Home</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="../../cvv/logs/banks.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-playlist-play"></i>
+              </span>
+              <span class="menu-title">Bank Of America</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="../../cvv/logs/banks.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-playlist-play"></i>
+              </span>
+              <span class="menu-title">BB&T BANK</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="../../cvv/logs/banks.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-playlist-play"></i>
+              </span>
+              <span class="menu-title">CHASE BANK</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="../../cvv/logs/banks.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-playlist-play"></i>
+              </span>
+              <span class="menu-title">CHIME BANK</span>
+            </a>
+          </li>
+       <li class="nav-item menu-items">
+            <a class="nav-link" href="../../cvv/logs/banks.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-playlist-play"></i>
+              </span>
+              <span class="menu-title">CITI BANK</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="../../cvv/logs/banks.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-playlist-play"></i>
+              </span>
+              <span class="menu-title">HUNTINCTION</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="../../cvv/logs/banks.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-playlist-play"></i>
+              </span>
+              <span class="menu-title">NFCU</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:../../partials/_navbar.html -->
+        <nav class="navbar p-0 fixed-top d-flex flex-row">
+          <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+            <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../assets/images/logo-mini.svg" alt="logo" /></a>
+          </div>
+          <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+              <span class="mdi mdi-menu"></span>
+            </button>
+            <ul class="navbar-nav w-100">
+              <li class="nav-item w-100">
+                <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
+                  <input type="text" class="form-control" placeholder="Search BIN">
+                </form>
+              </li>
+            </ul>
+            <ul class="navbar-nav navbar-nav-right">
+              <li class="nav-item dropdown d-none d-lg-block">
+                <a class="nav-link btn btn-danger create-new-button" href="../../add_funds.html">+ Add Balance</a>
+                
+              </li>
+            <ul class="navbar-nav navbar-nav-right">
+              <li class="nav-item dropdown d-none d-lg-block">
+              
+              </li>
+              <li class="nav-item nav-settings d-none d-lg-block">
+                <a class="nav-link" href="#">
+                  <i class="mdi mdi-view-grid"></i>
+                </a>
+              </li>
+              <li class="nav-item dropdown border-left">
+                <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="mdi mdi-email"></i>
+                  <span class="count bg-success"></span>
+                </a>
+              </li>
+              <li class="nav-item dropdown border-left">
+                <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
+                  <i class="mdi mdi-bell"></i>
+                  <span class="count bg-danger"></span>
+                </a>
+                  
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" id="profileDropdown" href="#" data-bs-toggle="dropdown">
+                  <div class="navbar-profile">
+                    <img class="img-xs rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Former_Visa_%28company%29_logo.svg/1280px-Former_Visa_%28company%29_logo.svg.png" alt="">
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name">ID 3276198</p>
+                    <i class="mdi mdi-menu-down d-none d-sm-block"></i>
+                  </div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="profileDropdown">
+                  <h6 class="p-3 mb-0">Profile</h6>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-settings text-success"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Settings</p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-logout text-danger"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Log out</p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <p class="p-3 mb-0 text-center">Advanced settings</p>
+                </div>
+              </li>
+            </ul>
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+              <span class="mdi mdi-format-line-spacing"></span>
+            </button>
+          </div>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="page-header">
+              <h3 class="page-title"> Latest cards </h3>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Dumps</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Most popular</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Chase Bank</h4>
+                    <p class="card-description">  <code>click purchase to complete</code>
+                    </p>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Type</th>
+                            <th>Card No.</th>
+                            <th>expiry</th>
+                            <th>cvv</th>
+                            <th>status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="table-warning">
+                            <td>VISA</td>
+                            <td>4024007199204289</td>
+                            <td>8/2024,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-warning">
+                            <td>VISA</td>
+                            <td>4532618274783370</td>
+                            <td>4/2028,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-warning">
+                          <td>VISA</td>
+                          <td>4024007177684320</td>
+                          <td>9/2023,</td>
+                          <td>***</td>
+                          <td><label class="badge badge-success">Available</label></td>
+                          <td><a class="badge badge-primary" href="../../add_funds.html">
+                            <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                        </tr> 
+                        <tr class="table-warning">
+                          <td>VISA</td>
+                          <td>4532848805661692</td>
+                          <td>6/2022,</td>
+                          <td>***</td>
+                          <td><label class="badge badge-success">Available</label></td>
+                          <td><a class="badge badge-primary" href="../../add_funds.html">
+                            <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>VISA</td>
+                            <td>4929075307527988</td>
+                            <td>5/2024,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">TRUST BANK</h4>
+                    <p class="card-description"> <code>Click purchase to complete order</code>
+                    </p>
+                    <div class="table-responsive">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th>Type</th>
+                            <th>Card No</th>
+                            <th>Expiry</th>
+                            <th>cvv</th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="table-success">
+                            <td>VISA</td>
+                            <td>4556684547461054</td>
+                            <td>6/2026,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-success">
+                            <td>VISA</td>
+                            <td>4746503393280775</td>
+                            <td>5/2025,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-success">
+                            <td>VISA</td>
+                            <td>4716787861327319</td>
+                            <td>8/2024,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-success">
+                            <td>VISA</td>
+                            <td>4539552852076712</td>
+                            <td>9/2027,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-success">
+                            <td>VISA</td>
+                            <td>4556573559183773</td>
+                            <td>2/2025,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Bank Of America</h4>
+                    <p class="card-description">  <code> click purche to complete your order</code>
+                    </p>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th> Type </th>
+                            <th> Card No </th>
+                            <th> Expiry </th>
+                            <th> cvv </th>
+                            <th> status </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="table-secondary">
+                            <td>VISA</td>
+                            <td>4024007182887728</td>
+                            <td>5/2027,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-secondary">
+                            <td>VISA</td>
+                            <td>4024007154402027</td>
+                            <td>6/2025,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-secondary">
+                            <td>VISA</td>
+                            <td>4556573559183773</td>
+                            <td>2/2025,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-secondary">
+                            <td>VISA</td>
+                            <td>4916592984663014</td>
+                            <td>9/2025,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-secondary">
+                            <td>VISA</td>
+                            <td>4716634331358054</td>
+                            <td>8/2024,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-secondary">
+                            <td>VISA</td>
+                            <td>4556726073493850</td>
+                            <td>3/2027,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-secondary">
+                            <td>VISA</td>
+                            <td>4929913262656378</td>
+                            <td>7/2024,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">BBVA BANK</h4>
+                    <p class="card-description"><code>click purchase to complete order</code>
+                    </p>
+                    <div class="table-responsive">
+                      <table class="table table-bordered">
+                        <thead>
+                          <tr>
+                            <th> Type </th>
+                            <th> Card No </th>
+                            <th> Expiry </th>
+                            <th> Cvv </th>
+                            <th> Status </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="table-warning">
+                            <td>VISA</td>
+                            <td>4929417421037140</td>
+                            <td>12/2026,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-warning">
+                            <td>VISA</td>
+                            <td>4929913262656378</td>
+                            <td>7/2024,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-warning">
+                            <td>VISA</td>
+                            <td>4485042255754176</td>
+                            <td>3/2026,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-warning">
+                            <td>VISA</td>
+                            <td>4929913262656378</td>
+                            <td>7/2024,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-warning">
+                            <td>VISA</td>
+                            <td>4929432381656714</td>
+                            <td>6/2024,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-warning">
+                            <td>VISA</td>
+                            <td>4532418077746207</td>
+                            <td>6/2022,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-warning">
+                            <td>VISA</td>
+                            <td>4929209795458055</td>
+                            <td>3/2028,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">CITI BANK</h4>
+                    <p class="card-description"> <code>Click purchase to complete your order</code>
+                    </p>
+                    <div class="table-responsive">
+                      <table class="table table-dark">
+                        <thead>
+                          <tr>
+                            <th> Type</th>
+                            <th> Card No </th>
+                            <th> Expiry </th>
+                            <th> cvv </th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="table-info">
+                            <td>VISA</td>
+                            <td>4929958770345246</td>
+                            <td>1/2027,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-info">
+                            <td>VISA</td>
+                            <td>4485095310426354</td>
+                            <td>3/2027,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-info">
+                            <td>VISA</td>
+                            <td>4532716878700830</td>
+                            <td>9/2029,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-info">
+                            <td>VISA</td>
+                            <td>4485660743632199</td>
+                            <td>4/2027,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-info">
+                            <td>VISA</td>
+                            <td>4532207979850708</td>
+                            <td>8/2025,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-info">
+                            <td>VISA</td>
+                            <td>4929566601521578</td>
+                            <td>11/2028,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-info">
+                            <td>VISA</td>
+                            <td>4716483132593273</td>
+                            <td>3/2027,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">WEELS FARGO</h4>
+                    <p class="card-description"> <code>Click purchase to complete your order</code>
+                    </p>
+                    <div class="table-responsive">
+                      <table class="table table-bordered table-contextual">
+                        <thead>
+                          <tr>
+                            <th> Type</th>
+                            <th> Card No </th>
+                            <th> Expiry </th>
+                            <th> Cvv </th>
+                            <th> Status </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="table-info">
+                            <td>VISA</td>
+                            <td>4024007137474721</td>
+                            <td>11/2023,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-warning">
+                            <td>VISA</td>
+                            <td>4556865217682232</td>
+                            <td>2/2025,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-danger">
+                            <td>VISA</td>
+                            <td>4024007102247185</td>
+                            <td>4/2027,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-success">
+                            <td>VISA</td>
+                            <td>4024007169475604</td>
+                            <td>3/2026,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                          <tr class="table-primary">
+                            <td>VISA</td>
+                            <td>4532075571248534</td>
+                            <td>8/2027,</td>
+                            <td>***</td>
+                            <td><label class="badge badge-success">Available</label></td>
+                            <td><a class="badge badge-primary" href="../../add_funds.html">
+                              <i class="fa fa-shopping-cart"></i> Purchase</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content-wrapper ends -->
+ 
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="../../assets/js/off-canvas.js"></script>
+    <script src="../../assets/js/hoverable-collapse.js"></script>
+    <script src="../../assets/js/misc.js"></script>
+    <script src="../../assets/js/settings.js"></script>
+    <script src="../../assets/js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <!-- End custom js for this page -->
+  </body>
+</html>
