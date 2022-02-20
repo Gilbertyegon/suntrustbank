@@ -195,7 +195,7 @@ function signIn(){
                 title: 'success',
                 text: "Logged in",
             },  function() {
-                window.location = "./suntrust.html";
+                window.location = "./home.html";
             });
         }, 1000);
           
